@@ -1,0 +1,39 @@
+{
+  "name": "tape-with-promises",
+  "version": "1.0.0",
+  "description": "Tape with support for promises (rejects, doesNotReject).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "tape tests/**/* | tap-monkey"
+  },
+  "keywords": [
+    "tape",
+    "promises",
+    "rejects",
+    "doesNotReject"
+  ],
+  "funding": {
+    "type": "foundation",
+    "url": "https://small-tech.org/fund-us/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/small-tech/tape-with-promises.git"
+  },
+  "homepage": "https://github.com/small-tech/tape-with-promises",
+  "bugs": "https://github.com/small-tech/tape-with-promises/issues",
+  "author": {
+    "name": "Aral Balkan",
+    "email": "aral@small-tech.org",
+    "url": "https://ar.al"
+  },
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "tape": "^5.5.2",
+    "tape-promise": "^4.0.0"
+  },
+  "devDependencies": {
+    "@small-tech/tap-monkey": "^1.3.0"
+  }
+}
