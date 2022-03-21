@@ -11,7 +11,7 @@ npm install --save-dev @small-tech/tape-with-promises
 ## Use
 
 ```js
-import test from 'tape-with-promises'
+import test from '@small-tech/tape-with-promises'
 
 test('promises', async t => {
   await t.rejects(() => {
