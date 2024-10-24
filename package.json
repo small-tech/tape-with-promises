@@ -1,7 +1,7 @@
 {
   "name": "@small-tech/tape-with-promises",
-  "version": "1.0.1",
-  "description": "Tape with support for promises (rejects, doesNotReject).",
+  "version": "2.0.0",
+  "description": "[Deprecated] Tape with support for promises (rejects, doesNotReject).",
   "main": "index.js",
   "type": "module",
   "scripts": {

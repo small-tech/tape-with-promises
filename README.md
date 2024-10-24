@@ -1,5 +1,47 @@
 # Tape With Promises
 
+## 🚨 This package is depracated. 🚨
+
+[Tape version 5.x+](https://github.com/tape-testing/tape) supports promises (and thus async/await) and so this module is no longer necessary.
+
+### If you’re still on Tape version 4
+
+Please consider upgrading to Tape 5.x.
+
+If you can’t right now, you can still install and use version 1.0.1 of this module:
+
+```
+npm install @small-tech/tape-with-promises@1.0.1
+```
+
+### To switch from this module to Tape version 5.x+:
+
+1. Install tape:
+
+    ```
+    npm install tape
+    ```
+
+2. Remove this module:
+
+    ```
+    npm remove @small-tech/tape-with-promises
+    ```
+
+3. In your test files, import the tape instead of this module:
+
+    ```
+    // Replace:
+
+    import test from '@small-tech/tape-with-promises'
+
+    // With:
+
+    import test from 'tape'
+    ```
+
+## About
+
 Adds promise support ([`rejects()`](https://github.com/jprichardson/tape-promise#trejectspromise-expected-msg), [`doesNotReject()`](https://github.com/jprichardson/tape-promise#tdoesnotrejectpromise-expected-msg)) to [tape](https://github.com/substack/tape) by decorating it using [tape-promise](https://github.com/jprichardson/tape-promise).
 
 ## Install
